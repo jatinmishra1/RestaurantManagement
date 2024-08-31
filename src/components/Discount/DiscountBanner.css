@@ -1,0 +1,44 @@
+.discount-banner {
+  margin-top: 20px;
+  display: flex;
+  width: 85%;
+  height: 140px;
+  background-color: #f9f9f9; /* You can change this to any color */
+  padding: 20px;
+  box-sizing: border-box;
+  margin-left: 110px;
+  background-color: rgb(157, 157, 187);
+  margin-bottom: 20px;
+}
+
+.discount-details {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-text .bold-text {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333; /* You can change this to any color */
+}
+
+.right-text .regular-text {
+  font-size: 25px;
+  font-weight: normal;
+  color: #666; /* You can change this to any color */
+}
+
+.coupon-code {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coupon-code .bold-text {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333; /* You can change this to any color */
+}

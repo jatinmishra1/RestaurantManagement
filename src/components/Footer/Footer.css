@@ -1,0 +1,97 @@
+.footer {
+  background-color: #f8f8f8; /* Background color */
+  color: #333; /* Text color */
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.footer-logo p {
+  font-size: 14px;
+}
+
+.footer-links,
+.footer-support,
+.footer-social,
+.footer-newsletter,
+.footer-contact {
+  margin-bottom: 20px;
+}
+
+.footer-links ul,
+.footer-support ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li,
+.footer-support li {
+  margin-bottom: 10px;
+}
+
+.footer-links a,
+.footer-support a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-links a:hover,
+.footer-support a:hover {
+  text-decoration: underline;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin-right: 15px;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  text-decoration: underline;
+}
+
+.footer-newsletter form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-newsletter input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.footer-newsletter button {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-newsletter button:hover {
+  background-color: #555;
+}
+
+.footer-contact p {
+  margin: 0;
+}

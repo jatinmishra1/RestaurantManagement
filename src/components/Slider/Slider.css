@@ -1,0 +1,49 @@
+.slider-wrapper {
+  position: relative;
+  width: 1500px; /* 400px * 3 to show 3 images at a time */
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-container {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-item {
+  min-width: 33.33%; /* To show 3 slides at a time */
+  box-sizing: border-box;
+}
+
+.slider-image {
+  width: 100%; /* Match the width of the container */
+  height: 600px;
+  object-fit: cover;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  user-select: none;
+  z-index: 10;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
